@@ -1,0 +1,33 @@
+
+.Card{
+    font-size: 16px;
+    border-radius: 1%;
+    text-align: center;
+    background-color: rgb(44, 19, 33);
+    color:white;
+    min-height:50vh;
+    width: 45vh;
+    margin:  10px 5px;
+    padding: 0px;
+    flex-shrink: 1;
+    
+}
+
+.Card p{
+    font-size: 20px;
+}
+
+.cardPhoto{
+    width: 50%;
+    border-radius: 1%;
+    flex-shrink: 3;
+}
+
+@media (max-width:1100px){
+    .Card {
+        font-size: 16px;
+    
+    }
+
+ }
+

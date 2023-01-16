@@ -1,0 +1,125 @@
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:monospace;
+
+}
+
+.name{
+    color:white;
+    margin-left: 12px;
+    
+   
+}
+
+
+.nav-items{
+    list-style: none;
+    display:flex;
+}
+
+.nav-items>li{
+    padding:12px;
+    font-size:1.5rem;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 50px;
+    box-shadow: inset;
+    color:rgb(255, 255, 255);
+    
+
+}
+a:hover{
+    color:#DAB6FC;
+}
+
+.image1{
+    border-radius: 10%;
+    max-height:50px;
+    margin:12px;
+    
+}
+
+.glitch-wrapper {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 16px;
+ }
+ 
+ .glitch {
+    position: relative;
+    font-size:4vw;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    letter-spacing: 6px;
+    animation: shift 4s ease-in-out infinite alternate;
+    transform: skewX(0deg);
+    z-index: 1;
+ }
+ 
+ @keyframes shift {
+    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+       transform: skewX(0deg);
+    }
+ 
+    41% {
+       transform: skewX(10deg);
+    }
+ 
+    42% {
+       transform: skewX(-10deg);
+    }
+ 
+    59% {
+       transform: skewX(40deg) skewY(10deg);
+    }
+ 
+    60% {
+       transform: skewX(-40deg) skewY(-10deg);
+    }
+ 
+    63% {
+       transform: skewX(10deg) skewY(-5deg);
+    }
+ 
+    70% {
+       transform: skewX(-50deg) skewY(-20deg);
+    }
+ 
+    71% {
+       transform: skewX(10deg) skewY(-10deg);
+    }
+ }
+
+
+ @media (max-width:820px){
+    /*This is a much nicer way to make the navbar look nice than scaling with vw like I did with my name*/
+    .nav-items li{
+        font-size:   14px;
+    }
+
+ }
+
+ @media (max-width:400px){
+   /*This is a much nicer way to make the navbar look nice than scaling with vw like I did with my name*/
+   .nav-items li{
+       font-size:  12px;
+       margin :0px;
+       padding:5px;
+   }
+   
+  
+
+}

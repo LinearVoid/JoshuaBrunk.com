@@ -1,0 +1,26 @@
+.flexarrange{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+#flex-button{
+    text-align: center;
+    width: 100%;
+}
+
+#button-holder{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
