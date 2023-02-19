@@ -3,6 +3,7 @@ import "./Projects.css"
 import Card from "./Card.js"
 import bot from "./bot.PNG"
 import perlin from "./perlin.png"
+import clock from "./clock.webp"
 import {Link} from "react-scroll"
 function Projects(){
     return(
@@ -19,6 +20,7 @@ function Projects(){
                 <Card alt = "Image of a Red Cube" name= "Bobby the Cube's Bizzare Adventures" photo = "https://img.itch.zone/aW1nLzQzNTQ4MDAucG5n/original/RJGTzp.png" phrase = "My first Unity Program that is just a simple Cube moving and his name is Bobby" url= "https://linearvoid.itch.io/bobby-the-cubes-bizzare-adventures" />
                 <Card  alt = "Image of the Word PERN" name= "PERN Stack Program" photo = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200402205611/What-is-PERN-Stack.png" phrase = "I created this program to learn Postgressql, Node and Express. I used EJS instead of react and will be rewriting this soon" url= "https://linearvoid.itch.io/perlin-noise-viewer-test" />
                 <Card alt = "Image of an astronaut in space" name= "Astronaut Wandering" photo = "" phrase = "This Unity Game was a test of gravity. It has an astronaut floating in space and astroids with gravity." url= "https://linearvoid.itch.io/wandering-astronaut" />
+                <Card alt = "Image of a clock" name= "Neomorphism Timer" photo = {clock} phrase = "A Simple Timer made in REACT" url = "https://linearvoid.github.io/CoolReactTimer/" />
                 </div>
             
             <div id = "button-holder">
