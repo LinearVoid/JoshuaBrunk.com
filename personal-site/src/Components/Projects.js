@@ -18,10 +18,7 @@ function Projects(){
                 <Card  alt = "Meme Generator"name= "Meme generator" photo = "https://orig00.deviantart.net/c96c/f/2011/288/8/c/troll_face_sad_by_rober_raik-d4cwjk7.png" phrase = "A simple meme generator I created" url= "https://linearvoid.github.io/Meme-generator/ " />
                 <Card alt = "Image of a clock" name= "Neomorphism Timer" photo = {clock} phrase = "A Simple Timer made in REACT" url = "https://linearvoid.github.io/CoolReactTimer/" />
                 <Card alt = "binary search image" name= "Simple Pyinary Search" photo = "https://s3-us-west-2.amazonaws.com/ib-assessment-tests/problem_images/binary_search.gif" phrase = "A simple Python Script I created while trying to understand the CORDIC algorithm" url= "https://github.com/LinearVoid/SimplePyinarySearch" />
-                <Card  alt = "Image of the Word PERN" name= "PERN Stack Program" photo = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200402205611/What-is-PERN-Stack.png" phrase = "I created this program to learn Postgressql, Node and Express. I used EJS instead of react and will be rewriting this soon" url= "https://linearvoid.itch.io/perlin-noise-viewer-test" />
                 <Card alt = "image of perlin noise" name= "Perlin Noise Generator" photo = {perlin} phrase = "A simple program that generates 2D perlin noise using Unity" url= "https://linearvoid.itch.io/perlin-noise-viewer-test" />
-                <Card alt = "Image of a Red Cube" name= "Bobby the Cube's Bizzare Adventures" photo = "https://img.itch.zone/aW1nLzQzNTQ4MDAucG5n/original/RJGTzp.png" phrase = "My first Unity Program that is just a simple Cube moving and his name is Bobby" url= "https://linearvoid.itch.io/bobby-the-cubes-bizzare-adventures" />
-                <Card alt = "Image of an astronaut in space" name= "Astronaut Wandering" photo = "https://linearvoid.itch.io/wandering-astronaut" phrase = "This Unity Game was a test of gravity. It has an astronaut floating in space and astroids with gravity." url= "https://linearvoid.itch.io/wandering-astronaut" />
                 
                 </div>
             
