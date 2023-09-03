@@ -4,19 +4,48 @@ html, body{
   box-sizing: border-box;
 
 }
-
+@property --a {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: -45deg;
+}
 
 .App{
+  --a:0deg;
   display:flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #e4cbfc;
   background-image: linear-gradient(
-    -45deg, 
+    var(--a), 
     #e4cbfc 0%, 
     rgba(87,111,230,1) 25%, 
-    rgba(152,68,183,1) 51%, 
-    rgba(255,53,127,1) 100%
+    rgb(56, 33, 175)51%,
+    rgb(104, 29, 185)79%,
+    rgb(221, 81, 132) 100%
+
   );
+  background-size: 100% 100%;
+  animation: gradient 20s ease infinite;
   
+  
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+    
+	}
+  25%{
+    --a:90deg;
+  }
+	50% {
+		background-position: 100% 100%;
+    --a:180deg;
+	}
+  75%{
+    --a:270deg;
+  }
+	100% {
+		background-position: 0% 0%;
+    --a:360deg;
+	}
 }
